@@ -9,5 +9,5 @@ if [ ! -f .venv ]; then
     virtualenv -p `which python2.7` .venv
 fi
 source .venv/bin/activate
-pip install -r requirments.txt
+pip install -r requirements.txt
 jupyter notebook
