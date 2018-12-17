@@ -18,7 +18,7 @@ If any library is missing, it will install it first.
 Here are the instructions:
 1. Download the project and unzip.
 2. In the terminal, go to the unzipped dir.
-3. ./run.sh (creates the virtual environment and installs the needed python libraries).
+3. ./run.sh (creates the virtual environment and installs the needed python libraries with pip).
 4. Jupyter notebook should open up
 5. open the notebook called Fun project with OpenCV
 
