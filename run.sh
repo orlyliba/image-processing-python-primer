@@ -1,6 +1,6 @@
 #!/bin/bash
 PATH=$PATH:~/Library/Python/2.7/bin
-if [ $(which pip) -eq ""] ; then
+if [ "$(which pip)" = "" ]; then
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     python get-pip.py --user
 fi
